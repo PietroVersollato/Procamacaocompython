@@ -1,0 +1,233 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMkHIb098B5HsQiX88Y2CrE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PietroVersollato/Procamacaocompython/blob/main/Resolu%C3%A7%C3%A3oprova.ipynb/aula\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 1"
+      ],
+      "metadata": {
+        "id": "gIn9f0HwplEm"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fGi2Ct4kM0ei",
+        "outputId": "bfab3a94-bf95-4761-f03b-b972f7c81a7f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bem vindo ao jogo de adivinhação!\n",
+            "Você tem 100 pontos, a cada erro você perde 5 pontos\n",
+            "Tente adivinhar o número secreto entre 1 e 100\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 1 vezes\n",
+            "Você tem: 95 pontos\n",
+            "Digite um número de 1 a 100: 12\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 2 vezes\n",
+            "Você tem: 90 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 3 vezes\n",
+            "Você tem: 85 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 4 vezes\n",
+            "Você tem: 80 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 5 vezes\n",
+            "Você tem: 75 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 6 vezes\n",
+            "Você tem: 70 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 7 vezes\n",
+            "Você tem: 65 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 8 vezes\n",
+            "Você tem: 60 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 9 vezes\n",
+            "Você tem: 55 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 10 vezes\n",
+            "Você tem: 50 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 11 vezes\n",
+            "Você tem: 45 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 12 vezes\n",
+            "Você tem: 40 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 13 vezes\n",
+            "Você tem: 35 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 14 vezes\n",
+            "Você tem: 30 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 15 vezes\n",
+            "Você tem: 25 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 16 vezes\n",
+            "Você tem: 20 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 17 vezes\n",
+            "Você tem: 15 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 18 vezes\n",
+            "Você tem: 10 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 19 vezes\n",
+            "Você tem: 5 pontos\n",
+            "Digite um número de 1 a 100: 32\n",
+            "Muito baixo\n",
+            "Congelado - Você está muito longe\n",
+            "Você errou: 20 vezes\n",
+            "Você perdeu todos os pontos\n"
+          ]
+        }
+      ],
+      "source": [
+        "import random\n",
+        "secreto = random.randrange(1,100)\n",
+        "resp = 0\n",
+        "erros = 0\n",
+        "calcu = 0\n",
+        "pontos = 100\n",
+        "print(\"Bem vindo ao jogo de adivinhação!\")\n",
+        "print(\"Você tem 100 pontos, a cada erro você perde 5 pontos\")\n",
+        "print(\"Tente adivinhar o número secreto entre 1 e 100\")\n",
+        "while resp != 20:\n",
+        "  resp = int(input(\"Digite um número de 1 a 100: \"))\n",
+        "  if resp <=0 or resp > 100:\n",
+        "    print(\"Número fora do padrão\")\n",
+        "    break\n",
+        "  if resp > secreto:\n",
+        "    print(\"Muito alto\")\n",
+        "    calcu = resp - secreto\n",
+        "    if calcu <= 10:\n",
+        "     print(\"Quente - Você está perto\")\n",
+        "    elif calcu > 5 and calcu <= 10:\n",
+        "      print(\"Morno - Você está médio\")\n",
+        "    elif calcu > 10 and calcu <= 20:\n",
+        "      print(\"Frio - Você está longe\")\n",
+        "    elif calcu > 20:\n",
+        "      print(\"Congelado - Você está muito longe\")\n",
+        "  if resp < secreto:\n",
+        "      print(\"Muito baixo\")\n",
+        "      calcu = secreto - resp\n",
+        "      if calcu <= 10:\n",
+        "        print(\"Quente - Você está perto\")\n",
+        "      elif calcu > 5 and calcu <= 10:\n",
+        "        print(\"Morno - Você está médio\")\n",
+        "      elif calcu > 10 and calcu <= 20:\n",
+        "        print(\"Frio - Você está longe\")\n",
+        "      elif calcu > 20:\n",
+        "        print(\"Congelado - Você está muito longe\")\n",
+        "  if resp == secreto:\n",
+        "      print(\"Você acertou meus parabéns\")\n",
+        "      break\n",
+        "  erros = erros +1\n",
+        "  print(\"Você errou:\", erros, \"vezes\")\n",
+        "  pontos = pontos - 5\n",
+        "  if pontos == 0:\n",
+        "    print(\"Você perdeu todos os pontos\")\n",
+        "    break\n",
+        "  print(\"Você tem:\", pontos, \"pontos\")\n",
+        "print(\"Fim de jogo\")\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **2**"
+      ],
+      "metadata": {
+        "id": "tDHQHYe3pn5z"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "total = 0\n",
+        "\n",
+        "while True:\n",
+        "  float(input(\"Digite 1 : \"))"
+      ],
+      "metadata": {
+        "id": "stoUlhT2XkJa"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
